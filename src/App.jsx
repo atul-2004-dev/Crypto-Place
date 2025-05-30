@@ -7,6 +7,8 @@ import Footer from "./components/Navbar/Footer";
 import Features from "./pages/Features/Features";
 import Pricing from "./pages/Pricing/Pricing";
 import Blog from "./pages/Blog/Blog";
+import { Analytics } from '@vercel/analytics/react'; // ✅ Import here
+
 const App = () => {
   return (
     <div className="app">
@@ -17,9 +19,9 @@ const App = () => {
         <Route path="/features" element={<Features />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/blog" element={<Blog />} />
-
       </Routes>
       <Footer />
+      <Analytics /> 
     </div>
   );
 };
