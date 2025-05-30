@@ -28,7 +28,7 @@ Check out the live version here: [https://crypto-place-psi.vercel.app](https://c
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React, CSS Modules 
+- **Frontend**: React, CSS Modules ,VS Code
 - **API**: [CoinGecko API](https://www.coingecko.com/en/api)
 - **Deployment**: Vercel
 
